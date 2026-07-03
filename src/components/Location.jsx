@@ -1,7 +1,11 @@
 import { Reveal } from "./Reveal";
 
 export function Location() {
+<<<<<<< HEAD
   const query = encodeURIComponent("12 Oxford Road, Uxbridge, London, UB9 4DQ");
+=======
+  const query = encodeURIComponent("UB9 4DQ, United Kingdom");
+>>>>>>> bb612918cbe09f228df7758da85f87a6e59b6cbf
   const mapsHref = `https://www.google.com/maps/search/?api=1&query=${query}`;
   const embed = `https://www.google.com/maps?q=${query}&output=embed`;
 
@@ -29,6 +33,7 @@ export function Location() {
 
                 <dl className="space-y-5 text-sm">
                   <div>
+<<<<<<< HEAD
                     <dt className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-1">Address</dt>
                     <dd className="font-display text-xl text-accent leading-snug">
                       12 Oxford Road, Uxbridge, London, UB9 4DQ
@@ -37,6 +42,22 @@ export function Location() {
                   <div>
                     <dt className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-1">Web</dt>
                     <dd><a className="hover:text-primary transition" href="https://www.nileva.co.uk/" target="_blank" rel="noreferrer">www.nileva.co.uk</a></dd>
+=======
+                    <dt className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-1">Postcode</dt>
+                    <dd className="font-display text-2xl text-accent">UB9 4DQ</dd>
+                  </div>
+                  <div>
+                    <dt className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-1">Phone</dt>
+                    <dd><a className="hover:text-primary transition" href="tel:+447411660079">+44 7411 660079</a></dd>
+                  </div>
+                  <div>
+                    <dt className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-1">Web</dt>
+                    <dd><a className="hover:text-primary transition" href="https://www.nilevagrillkitchen.co.uk" target="_blank" rel="noreferrer">www.nilevagrillkitchen.co.uk</a></dd>
+                  </div>
+                  <div>
+                    <dt className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-1">Social</dt>
+                    <dd>@nileva_grill_kitchen</dd>
+>>>>>>> bb612918cbe09f228df7758da85f87a6e59b6cbf
                   </div>
                 </dl>
               </div>
@@ -55,7 +76,11 @@ export function Location() {
           <Reveal className="lg:col-span-3" delay={150}>
             <div className="relative h-full min-h-[420px] border border-border overflow-hidden group">
               <iframe
+<<<<<<< HEAD
                 title="Nileva location map — 12 Oxford Road, Uxbridge, UB9 4DQ"
+=======
+                title="Nileva location map — UB9 4DQ"
+>>>>>>> bb612918cbe09f228df7758da85f87a6e59b6cbf
                 src={embed}
                 className="absolute inset-0 w-full h-full grayscale contrast-110 group-hover:grayscale-0 transition-all duration-700"
                 loading="lazy"

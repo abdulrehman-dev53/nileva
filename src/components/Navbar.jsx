@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
+<<<<<<< HEAD
 import nilevaLogo from "../assets/NILEVA LOGO.png";
+=======
+>>>>>>> bb612918cbe09f228df7758da85f87a6e59b6cbf
 
 const links = [
   { href: "#home", label: "Home" },
@@ -29,6 +32,7 @@ export function Navbar() {
     >
       <nav className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
         <a href="#home" className="flex items-center gap-3 group">
+<<<<<<< HEAD
           <img
             src={nilevaLogo}
             alt="Nileva"
@@ -36,6 +40,14 @@ export function Navbar() {
           />
           <div className="leading-tight">
             <div className="font-display text-xl tracking-wide">NILEVA</div>
+=======
+          <div className="w-10 h-10 hex-frame bg-primary/20 border border-primary flex items-center justify-center font-display text-xl text-primary group-hover:animate-glow">
+            N
+          </div>
+          <div className="leading-tight">
+            <div className="font-display text-xl tracking-wide">NILEVA</div>
+            <div className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">Grill & Kitchen</div>
+>>>>>>> bb612918cbe09f228df7758da85f87a6e59b6cbf
           </div>
         </a>
 
