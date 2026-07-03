@@ -1,13 +1,6 @@
 {
   "buildCommand": "npm run build",
   "installCommand": "npm install --legacy-peer-deps",
-  "outputDirectory": "dist/client",
-  "functions": {
-    "api/index.js": {
-      "includeFiles": "dist/server/**"
-    }
-  },
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
-  ]
+  "framework": null,
+  "outputDirectory": ".output/public"
 }
