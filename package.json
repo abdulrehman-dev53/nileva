@@ -67,11 +67,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
-<<<<<<< HEAD
-    "@lovable.dev/vite-tanstack-config": "^2.1.1",
-=======
     "@lovable.dev/vite-tanstack-config": "^2.3.2",
->>>>>>> bb612918cbe09f228df7758da85f87a6e59b6cbf
     "@types/node": "^22.16.5",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
@@ -82,20 +78,10 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^15.15.0",
-<<<<<<< HEAD
-    "nitro": "3.0.260603-beta",
-=======
     "nitro": "^3.0.260603-beta",
->>>>>>> bb612918cbe09f228df7758da85f87a6e59b6cbf
     "prettier": "^3.7.3",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
     "vite": "^7.3.1"
-<<<<<<< HEAD
-  },
-  "overrides": {
-    "nitro": "3.0.260603-beta"
-=======
->>>>>>> bb612918cbe09f228df7758da85f87a6e59b6cbf
   }
 }
