@@ -6,15 +6,11 @@ import { Menu } from "@/components/Menu.jsx";
 import { Experience } from "@/components/Experience.jsx";
 import { Location } from "@/components/Location.jsx";
 import { Contact, Footer } from "@/components/Contact.jsx";
-<<<<<<< HEAD
 import nilevaLogo from "@/assets/NILEVA LOGO.png";
-=======
->>>>>>> bb612918cbe09f228df7758da85f87a6e59b6cbf
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-<<<<<<< HEAD
       { title: "Nileva" },
       { name: "description", content: "Nileva — a premium Mediterranean grill & lounge in UB9 4DQ. Charcoal-grilled flavours, Levantine soul, modern luxury." },
       { property: "og:title", content: "Nileva" },
@@ -23,14 +19,6 @@ export const Route = createFileRoute("/")({
     ],
     links: [
       { rel: "icon", href: nilevaLogo },
-=======
-      { title: "Nileva Grill & Kitchen — Launching Soon" },
-      { name: "description", content: "Nileva Grill & Kitchen — a premium Mediterranean grill & lounge launching soon in UB9 4DQ. Charcoal-grilled flavours, Levantine soul, modern luxury." },
-      { property: "og:title", content: "Nileva Grill & Kitchen — Launching Soon" },
-      { property: "og:description", content: "Premium Mediterranean grill & lounge. Launching soon in UB9 4DQ." },
-    ],
-    links: [
->>>>>>> bb612918cbe09f228df7758da85f87a6e59b6cbf
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
