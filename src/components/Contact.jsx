@@ -15,24 +15,14 @@ export function Contact() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            
-              href="tel:01895760234"
-              className="flex flex-col items-center gap-1 px-8 py-5 bg-background border border-border hover:border-primary transition-colors min-w-[220px]"
-            >
+            <a href="tel:01895760234" className="flex flex-col items-center gap-1 px-8 py-5 bg-background border border-border hover:border-primary transition-colors min-w-[220px]">
               <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Landline</span>
-              <span className="phone-number text-2xl font-semibold text-accent">
-                01895 760234
-              </span>
+              <span className="phone-number text-2xl font-semibold text-accent">01895 760234</span>
             </a>
 
-            
-              href="tel:+447514000020"
-              className="flex flex-col items-center gap-1 px-8 py-5 bg-background border border-border hover:border-primary transition-colors min-w-[220px]"
-            >
+            <a href="tel:+447514000020" className="flex flex-col items-center gap-1 px-8 py-5 bg-background border border-border hover:border-primary transition-colors min-w-[220px]">
               <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Mobile</span>
-              <span className="phone-number text-2xl font-semibold text-accent">
-                0751 400 0020
-              </span>
+              <span className="phone-number text-2xl font-semibold text-accent">0751 400 0020</span>
             </a>
           </div>
         </Reveal>
