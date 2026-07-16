@@ -1,6 +1,5 @@
 import { Reveal } from "./Reveal";
 import nilevaLogo from "../assets/NILEVA LOGO.png";
-
 export function Contact() {
   return (
     <section id="contact" className="relative py-32 px-6 bg-card/30">
@@ -13,16 +12,18 @@ export function Contact() {
           <p className="text-muted-foreground mb-10 max-w-xl mx-auto">
             Give us a call — we'd love to hear from you and help with reservations or enquiries.
           </p>
-
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a href="tel:01895760234" className="flex flex-col items-center gap-1 px-8 py-5 bg-background border border-border hover:border-primary transition-colors min-w-[220px]">
               <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Landline</span>
               <span className="phone-number text-2xl font-semibold text-accent">01895 760234</span>
             </a>
-
             <a href="tel:+447514000020" className="flex flex-col items-center gap-1 px-8 py-5 bg-background border border-border hover:border-primary transition-colors min-w-[220px]">
               <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Mobile</span>
               <span className="phone-number text-2xl font-semibold text-accent">0751 400 0020</span>
+            </a>
+            <a href="mailto:mina@nileva.co.uk" className="flex flex-col items-center gap-1 px-8 py-5 bg-background border border-border hover:border-primary transition-colors min-w-[220px]">
+              <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Email</span>
+              <span className="phone-number text-2xl font-semibold text-accent">mina@nileva.co.uk</span>
             </a>
           </div>
         </Reveal>
@@ -30,7 +31,6 @@ export function Contact() {
     </section>
   );
 }
-
 export function Footer() {
   return (
     <footer className="border-t border-border py-12 px-6">
